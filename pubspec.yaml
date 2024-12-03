@@ -1,0 +1,304 @@
+name: ready_for_tonsillectomy
+description: Ready for Tonsillectomy mobile application, part of the Ready for Surgery suite.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.4.1+8
+
+environment:
+  sdk: ">=2.16.1 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # flutter_localizations:
+  #   sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: 1.0.8
+
+  # Adding Holly's dependencies here.
+  html: ^0.15.0
+  flutter_svg: ^2.0.10+1
+  hexcolor: ^3.0.1
+  rive: ^0.13.4
+  async: ^2.8.2
+  bordered_text: ^2.0.0
+  flutter_portal: ^1.1.3
+  carousel_slider: ^5.0.0
+  float_column: ^2.1.5
+  url_launcher: ^6.1.10
+  change_app_package_name: ^1.1.0
+  intl: ^0.19.0
+  shared_preferences: ^2.0.15
+  flutter_launcher_icons: ^0.14.1
+  flutter_local_notifications: ^17.1.2
+  #flutter_native_timezone: ^2.0.0
+  rxdart: ^0.28.0
+  firebase_core: ^3.6.0
+  firebase_crashlytics: ^4.1.3
+
+  awesome_notifications: ^0.10.0
+
+  google_fonts: ^6.2.1
+
+  provider: ^6.0.5
+  get_it: ^8.0.1
+  firebase_analytics: ^11.3.3
+  pendo_sdk: ^3.2.0
+
+
+flutter_icons:
+    image_path: "assets/icon.png"
+    android: true
+    ios: true
+    remove_alpha_ios: true
+    adaptive_icon_background: "#bdd7ea"
+    adaptive_icon_foreground: "assets/icon.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/icon.png
+   - assets/splash.svg
+   - assets/rating.svg
+   - assets/emory_logo.jpg
+   - assets/EU_shield_hz_280.png
+
+   - assets/notifications/transparent.png
+   - assets/notifications/doctor.png
+   - assets/notifications/doctor.svg
+   - assets/notifications/mom.png
+   - assets/notifications/mom.svg
+   - assets/notifications/no_food.png
+   - assets/notifications/no_food.svg
+   - assets/notifications/chart.png
+   - assets/notifications/chart.svg
+   - assets/notifications/chart_spanish.png
+   - assets/notifications/chart_spanish.svg
+   - assets/notifications/thermometer.png
+   - assets/notifications/thermometer.svg
+   - assets/notifications/dragon.png
+   - assets/notifications/dragon.svg
+   - assets/notifications/medicine.png
+   - assets/notifications/medicine.svg
+   - assets/notifications/kids.png
+   - assets/notifications/kids.svg
+
+   - assets/hub/doctor_tablet.riv
+   - assets/hub/module_1.svg
+   - assets/hub/module_2.svg
+   - assets/hub/module_3.svg
+   - assets/hub/module_4.svg
+   - assets/hub/module_5.svg
+   - assets/hub/module_6.svg
+   - assets/hub/module_7.svg
+   - assets/hub/parent_icon.svg
+   - assets/hub/menu_parents.svg
+   - assets/hub/menu_hub.svg
+
+   - assets/what_are_tonsils/hello_tonsils.riv
+   - assets/what_are_tonsils/comic_1.svg
+   - assets/what_are_tonsils/comic_2.riv
+   - assets/what_are_tonsils/comic_3.riv
+   - assets/what_are_tonsils/comic_4.svg
+   - assets/what_are_tonsils/comic_5.svg
+   - assets/what_are_tonsils/comic_6.riv
+   - assets/what_are_tonsils/comic_7.riv
+   - assets/what_are_tonsils/adenoids.svg
+
+   - assets/why_surgery/boy_girl.riv
+   - assets/why_surgery/big_tonsils.riv
+   - assets/why_surgery/boy_snore.svg
+   - assets/why_surgery/sick_tonsils.riv
+   - assets/why_surgery/girl_tonsillitis.svg
+   - assets/why_surgery/hello_doctor.riv
+   - assets/why_surgery/speech_bubble_base.svg
+
+   - assets/getting_ready/breakfast_icon.svg
+   - assets/getting_ready/worried_icon.svg
+   - assets/getting_ready/hospital_icon.svg
+   - assets/getting_ready/moon_stars.svg
+   - assets/getting_ready/sun.svg
+   - assets/getting_ready/teddy_purple.svg
+   - assets/getting_ready/rocket.svg
+   - assets/getting_ready/scale.riv
+   - assets/getting_ready/hospital_gown_sm.riv
+   - assets/getting_ready/door.riv
+   - assets/getting_ready/chairs.svg
+   - assets/getting_ready/anesthesiologist_surgeon.svg
+   - assets/getting_ready/nurse_ready.svg
+
+   - assets/sleep/boy_sitting_sm.riv
+   - assets/sleep/mask.svg
+   - assets/sleep/astronaut.riv
+   - assets/sleep/elephant.riv
+   - assets/sleep/snorkeler.riv
+   - assets/sleep/watermelon.svg
+   - assets/sleep/cotton_candy.svg
+   - assets/sleep/bubblegum.svg
+   - assets/sleep/strawberry.svg
+   - assets/sleep/curve.svg
+   - assets/sleep/thought_bubble.svg
+   - assets/sleep/sleeping.riv
+
+   - assets/operating_room/operating_room_sm.riv
+   - assets/operating_room/tray_sm.riv
+   - assets/operating_room/anesthesiologist_overlay.svg
+   - assets/operating_room/bed_overlay.svg
+   - assets/operating_room/lights_overlay.svg
+   - assets/operating_room/nurse_overlay.svg
+   - assets/operating_room/tray_overlay.svg
+   - assets/operating_room/retractor_overlay.svg
+   - assets/operating_room/coblator_overlay.svg
+   - assets/operating_room/forceps_overlay.svg
+
+   - assets/pacu/popsicles.riv
+   - assets/pacu/stretcher_sm.riv
+   - assets/pacu/blue_overlay.svg
+   - assets/pacu/green_overlay.svg
+   - assets/pacu/orange_overlay.svg
+   - assets/pacu/red_overlay.svg
+   - assets/pacu/purple_overlay.svg
+   - assets/pacu/girl_resting.svg
+   - assets/pacu/scabs.svg
+   - assets/pacu/boy_resting.svg
+
+   - assets/recovery_home/sundae.svg
+   - assets/recovery_home/couch.svg
+   - assets/recovery_home/medicine.riv
+   - assets/recovery_home/milk_juice.svg
+   - assets/recovery_home/powerade.svg
+   - assets/recovery_home/yogurt.riv
+   - assets/recovery_home/stomp.riv
+   - assets/recovery_home/kids_waving.svg
+   - assets/recovery_home/stars.riv
+
+   - assets/hub/module_3_spanish.svg
+   - assets/hub/module_7_spanish.svg
+
+   - assets/what_are_tonsils/hello_tonsils_spanish.riv
+   - assets/what_are_tonsils/comic_1_spanish.svg
+   - assets/what_are_tonsils/comic_2_spanish.riv
+   - assets/what_are_tonsils/comic_3_spanish.riv
+   - assets/what_are_tonsils/comic_4_spanish.svg
+   - assets/what_are_tonsils/comic_5_spanish.svg
+   - assets/what_are_tonsils/comic_6_spanish.riv
+   - assets/what_are_tonsils/comic_7_spanish.riv
+   - assets/what_are_tonsils/adenoids_spanish.svg
+
+   - assets/why_surgery/boy_girl_spanish.riv
+   - assets/why_surgery/big_tonsils_spanish.riv
+   - assets/why_surgery/boy_snore_spanish.svg
+   - assets/why_surgery/sick_tonsils_spanish.riv
+
+   - assets/getting_ready/breakfast_icon_spanish.svg
+   - assets/getting_ready/hospital_gown_sm_spanish.riv
+   - assets/getting_ready/door_spanish.riv
+   - assets/getting_ready/nurse_ready_spanish.svg
+
+   - assets/sleep/boy_sitting_sm_spanish.riv
+   - assets/sleep/mask_spanish.svg
+   - assets/sleep/astronaut_spanish.riv
+   - assets/sleep/elephant_spanish.riv
+   - assets/sleep/snorkeler_spanish.riv
+   - assets/sleep/bubblegum_spanish.svg
+
+   - assets/operating_room/operating_room_sm_spanish.riv
+   - assets/operating_room/tray_sm_spanish.riv
+
+   - assets/pacu/stretcher_sm_spanish.riv
+   - assets/pacu/scabs_spanish.svg
+   - assets/pacu/boy_resting_spanish.svg
+
+   - assets/recovery_home/milk_juice_spanish.svg
+   - assets/recovery_home/yogurt_spanish.riv
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: atrament
+      fonts:
+        - asset: assets/fonts/atrament_font.ttf
+    - family: proxima
+      fonts:
+        - asset: assets/fonts/proxima_regular_font.ttf
+        - asset: assets/fonts/proxima_bold_font.ttf
+          weight: 500
+    - family: blambot
+      fonts:
+        - asset: assets/fonts/blambot_regular_font.ttf
+        - asset: assets/fonts/blambot_bold_font.ttf
+          weight: 500
+    - family: badaboom
+      fonts:
+         - asset: assets/fonts/badaboom_pro_font.ttf
+    - family: ccmeanwhile
+      fonts:
+         - asset: assets/fonts/ccmeanwhile_regular_font.ttf
+         - asset: assets/fonts/ccmeanwhile_bold_font.ttf
+           weight: 500

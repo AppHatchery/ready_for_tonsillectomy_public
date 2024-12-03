@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "565253999831",
+    "project_id": "readyfortonsillectomy-14998",
+    "storage_bucket": "readyfortonsillectomy-14998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565253999831:android:148242abe86adf34e77492",
+        "android_client_info": {
+          "package_name": "edu.emory.tonsillectomysurgery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565253999831-oijjs0cdgacgr1f2vov99u84lan6mbpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP1aQgniGbV-WPw79u-ZEyWejFMz6Utg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565253999831-oijjs0cdgacgr1f2vov99u84lan6mbpr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "565253999831-ch4mhd3nv8918leg4ho5coikq7j6d9pp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.emory.tonsillectomysurgery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
