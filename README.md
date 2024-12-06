@@ -1,23 +1,31 @@
-# ready_for_tonsillectomy for iOS
+# Ready for Tonsillectomy
 
-This branch re-integrates local notification permissions in iOS. The re-integration needs to be validated with Android prior to merging into master branch. 
+An educational application designed to help children and their families prepare for tonsillectomy surgery. This app provides age-appropriate educational materials and resources to make the surgical experience less intimidating and more understandable for young patients.
 
-Upon launch of the app and set of surgery date, a notification will be trigger within 5 seconds. If this is not the case submit a ticket.
+## About the Project
 
-Ready for Tonsillectomy mobile application.
+Ready for Tonsillectomy is currently being used in a clinical trial to evaluate its effectiveness in improving patient education and outcomes for children undergoing tonsillectomy procedures. The application was developed with a focus on creating an engaging and informative experience that addresses the concerns and questions of both children and their caregivers.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Age-appropriate educational content about tonsillectomy
+- Interactive elements to engage young patients
+- Resources for parents and caregivers
+- Information about pre and post-operative care
+- Easy-to-understand medical information
 
-A few resources to get you started if this is your first Flutter project:
+## Development
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This project was co-developed and designed with Holly Cordray, combining clinical expertise with user-centered design principles to create an effective educational tool.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Acknowledgments
 
+Supported by the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR002378. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 
-## Build for Android Instructions
+## License
+
+[Include license information here]
+
+## Contact
+
+[Include contact information here]
